@@ -11,6 +11,7 @@ export default function GetInTouch() {
               help you.
             </p>
             <div className="flex flex-col space-y-4">
+              {/* Email */}
               <div className="flex items-center space-x-4">
                 <span className="bg-blue-100 p-4 rounded-lg">
                   <svg
@@ -33,6 +34,7 @@ export default function GetInTouch() {
                   <p className="text-blue-700">help@yourdomain.com</p>
                 </div>
               </div>
+              {/* Phone */}
               <div className="flex items-center space-x-4">
                 <span className="bg-blue-100 p-4 rounded-lg">
                   <svg
@@ -55,6 +57,7 @@ export default function GetInTouch() {
                   <p className="text-blue-700">+123-456-7890</p>
                 </div>
               </div>
+              {/* Address */}
               <div className="flex items-center space-x-4">
                 <span className="bg-blue-100 p-4 rounded-lg">
                   <svg
@@ -81,7 +84,7 @@ export default function GetInTouch() {
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className="w-full lg:w-1/3 bg-white p-6 rounded-lg shadow-lg">
+          <div className="w-full lg:w-1/3 bg-white p-6 rounded-lg shadow-lg mt-6 lg:mt-0">
             <h3 className="text-2xl font-bold text-blue-900 mb-4">
               Contact Us
             </h3>
