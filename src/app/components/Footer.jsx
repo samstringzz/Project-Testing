@@ -1,4 +1,4 @@
-import Logo from "../images/pngegg.png";
+import Logo from "../images/pngegg (9).png";
 
 export default function Footer() {
   return (

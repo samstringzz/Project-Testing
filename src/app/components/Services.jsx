@@ -1,8 +1,16 @@
 import Image from "../images/2108.i039.013.F.m004.c9.HR recruitment hiring isometric.jpg";
+import Worker from "../images/pngegg (1).png";
+import Workker2 from "../images/pngegg (2).png";
+import Worker3 from "../images/pngegg (3).png";
+import Worker4 from "../images/pngegg (4).png";
+import Worker5 from "../images/pngegg (5).png";
+import Worker6 from "../images/pngegg (6).png";
+import Worker7 from "../images/pngegg (7).png";
+import Worker8 from "../images/pngegg (8).png";
 
 export default function Services() {
   return (
-    <section className="py-16 bg-blue-20">
+    <section id="services" className="py-16 bg-blue-20">
       <div className="container mx-auto px-6 lg:px-20">
         {/* Top Categories Section */}
         <div className="text-center mb-12">
@@ -18,11 +26,9 @@ export default function Services() {
           {servicesData.map((service, index) => (
             <div
               key={index}
-              className={`p-4 rounded-lg shadow-lg text-center bg-${service.bgColor}-100`}
+              className="p-4 rounded-lg shadow-lg text-center bg-blue-100 hover:transform hover:scale-105 hover:shadow-xl transition-transform duration-300"
             >
-              <div
-                className={`p-6 inline-block bg-${service.bgColor}-200 rounded-full`}
-              >
+              <div className="p-6 inline-block bg-blue-200 rounded-full">
                 <img
                   src={service.icon}
                   alt={`${service.title} icon`}
@@ -82,42 +88,34 @@ export default function Services() {
 const servicesData = [
   {
     title: "Recruitment Services",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "blue",
+    icon: Worker.src,
   },
   {
     title: "Employee Training",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "green",
+    icon: Workker2.src,
   },
   {
     title: "Payroll Management",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "yellow",
+    icon: Worker3.src,
   },
   {
     title: "HR Consulting",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "cyan",
+    icon: Worker4.src,
   },
   {
     title: "Compliance Services",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "purple",
+    icon: Worker5.src,
   },
   {
     title: "Workforce Planning",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "indigo",
+    icon: Worker6.src,
   },
   {
     title: "Performance Management",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "orange",
+    icon: Worker7.src,
   },
   {
     title: "Employee Relations",
-    icon: "https://via.placeholder.com/30",
-    bgColor: "pink",
+    icon: Worker8.src,
   },
 ];

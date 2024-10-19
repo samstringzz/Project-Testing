@@ -1,6 +1,6 @@
 export default function GetInTouch() {
   return (
-    <section className="py-16 bg-blue-50">
+    <section id="appointment" className="py-16 bg-blue-50">
       <div className="container mx-auto px-6 lg:px-20">
         <div className="flex flex-wrap justify-between items-start">
           {/* Left Section */}
